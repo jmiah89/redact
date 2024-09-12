@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: redact
+server:
+  port: 8080
+redact:
+  words:
+    - Dog
+    - Cat
+    - Snake
+    - Dolphin
+    - Mammal
