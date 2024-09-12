@@ -32,6 +32,7 @@ To run the app run `./gradlew clean build bootRun`
 
 The app will run on port 8080 by default, to change this please go into application yaml config from the root of the project to `./src/main/java/resources/application.yaml` and change the line containing the port config  `port: 8080` to the desired port.
 
+Or you can provide the `server.port` when running the bootRun command to run the app as follows `./gradlew clean build bootRun --args='--server.port=8080'`
 ### How to call the app
 
 The webservice contains one endpoint `/redact` this can be called with a `POST` request with a string body or a `GET` request.
